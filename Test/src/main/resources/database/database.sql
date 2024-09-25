@@ -1,0 +1,7 @@
+CREATE TABLE caleg (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(255) NOT NULL,
+    partai VARCHAR(255) NOT NULL,
+    dapil VARCHAR(255) NOT NULL,
+    nomor_urut INT NOT NULL
+);
